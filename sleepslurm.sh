@@ -12,7 +12,5 @@
 #SBATCH -e testdel-slurm.%N.%j.err # STDERR
 
 # LOAD MODULES, INSERT CODE, AND RUN YOUR PROGRAMS HERE
-sleep 180
+sleep 30
 aws sns publish --topic-arn arn:aws:sns:ap-southeast-1:298402190365:awsnotify --message "SleepJobDone"
-exit 0
-
