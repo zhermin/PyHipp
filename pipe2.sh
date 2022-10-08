@@ -6,8 +6,8 @@
 sbatch /data/src/PyHipp/rplparallel-slurm.sh
 
 # second set of jobs called from the day directory
-sbatch /data/src/PyHipp/rs-1-slurm.sh
-sbatch /data/src/PyHipp/rs-2-slurm.sh
-sbatch /data/src/PyHipp/rs-3-slurm.sh
-sbatch /data/src/PyHipp/rs-4-slurm.sh
+sbatch /data/src/PyHipp/rs1-slurm.sh
+sbatch /data/src/PyHipp/rs2-slurm.sh
+sbatch /data/src/PyHipp/rs3-slurm.sh
+sbatch /data/src/PyHipp/rs4-slurm.sh
 
