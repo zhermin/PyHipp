@@ -41,7 +41,7 @@ lock = FileLock(lock_path, timeout=time_out_secs)
 with lock:
     if pmode == RESET_MODE:
         # create a list (named clist) of nevns environments with the prefix envprefix
-        clist = [f"{envprefix}{i}" for i in range(nenvs)]
+        clist = [f"{envprefix}{i}" for i in range(int(nenvs))]
         # save the list to file
         hickle.dump(clist, file_path)
     else:
