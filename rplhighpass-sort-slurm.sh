@@ -6,11 +6,11 @@
 #SBATCH --ntasks=1   # number of processor cores (i.e. tasks)
 #SBATCH --nodes=1   # number of nodes
 #SBATCH --cpus-per-task=1   # number of CPUs for this task
-#SBATCH -J "rplhighpass"   # job name
+#SBATCH -J "rplhps"   # job name
 
 ## /SBATCH -p general # partition (queue)
-#SBATCH -o rplhighpass-slurm.%N.%j.out # STDOUT
-#SBATCH -e rplhighpass-slurm.%N.%j.err # STDERR
+#SBATCH -o rplhps-slurm.%N.%j.out # STDOUT
+#SBATCH -e rplhps-slurm.%N.%j.err # STDERR
 
 # LOAD MODULES, INSERT CODE, AND RUN YOUR PROGRAMS HERE
 /data/miniconda3/bin/conda init
