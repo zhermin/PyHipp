@@ -14,8 +14,8 @@
 
 # LOAD MODULES, INSERT CODE, AND RUN YOUR PROGRAMS HERE
 python -u -c "import PyHipp as pyh; \
-import time; \
 import os; \
+import time; \
 t0 = time.time(); \
 print(time.localtime()); \
 os.chdir('sessioneye'); \
